@@ -6,11 +6,10 @@ class Human {
 private:
 	string name;
 	int age;
-	int xer;
 public:
 	Human(string Name,int Age)
 		:name{Name},age{Age}{}
-	Human() : Human("No Namemmm", 0) {}
+	Human() : Human("No Name", 0) {}
 	~Human() {
 		cout << "User deleted from" << this << endl;
 	}
